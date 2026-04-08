@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twittradio.com - Tu estación de radio favorita</title>
+    <title>Twittradio.com - Sintoniza Tu Mente</title>
     <style>
         * {
             margin: 0;
@@ -117,6 +117,62 @@
                 max-width: 200px;
             }
         }
+
+        .media-section {
+            margin-top: 50px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .media-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ffc100;
+            text-align: center;
+        }
+
+        .media-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+            padding: 10px;
+        }
+
+        @media (min-width: 480px) {
+            .media-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .media-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .media-item {
+            background-color: rgba(255, 193, 0, 0.1);
+            border: 1px solid rgba(255, 193, 0, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .media-item audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .media-title {
+            font-size: 0.9rem;
+            color: #e0e0e0;
+            text-align: center;
+            word-break: break-word;
+        }
+
+
     </style>
 </head>
 <body>
@@ -129,6 +185,138 @@
             <h1>Bienvenidos a Twittradio</h1>
             <p>Sintoniza tu mente</p>
             <a href="https://escucha.twittradio.com" class="cta-button">Escuchar Ahora</a>
+        </div>
+
+        <div class="media-section">
+            <h2>Slogans</h2>
+            <div class="media-grid">
+                <div class="media-item">
+                    <div class="media-title">01 - Abuelo Slogan</div>
+                    <audio controls>
+                        <source src="slogans/01-abuelo-slogan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">02 - Anticristo Slogan</div>
+                    <audio controls>
+                        <source src="slogans/02-anticristo-slogan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">03 - Chata Slogan Original</div>
+                    <audio controls>
+                        <source src="slogans/03-chata-slogan-original.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">18 - Antonio Twittradio</div>
+                    <audio controls>
+                        <source src="slogans/18-antonio-twittradio.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Alucard</div>
+                    <audio controls>
+                        <source src="slogans/Alucard.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">L - Death Note</div>
+                    <audio controls>
+                        <source src="slogans/L-death-note.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Mr. Burns</div>
+                    <audio controls>
+                        <source src="slogans/Mr.Burns_.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Nelson</div>
+                    <audio controls>
+                        <source src="slogans/Nelson.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo Patito</div>
+                    <audio controls>
+                        <source src="slogans/PROMO-PATITO.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo Karla</div>
+                    <audio controls>
+                        <source src="slogans/Promo-Karla.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo WashaWasheando</div>
+                    <audio controls>
+                        <source src="slogans/Promo-WashaWasheando.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Vale - Slogan Formal</div>
+                    <audio controls>
+                        <source src="slogans/Vale-slogan-formal.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">YBAHN - Slogan</div>
+                    <audio controls>
+                        <source src="slogans/YBAHN-slogan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Gilo - Indie Love</div>
+                    <audio controls>
+                        <source src="slogans/gilo-indie-love.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Karto - Slogan</div>
+                    <audio controls>
+                        <source src="slogans/karto-slogan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Mary - Sintoniza</div>
+                    <audio controls>
+                        <source src="slogans/mary-sintoniza.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo Guarro</div>
+                    <audio controls>
+                        <source src="slogans/promo-guarro.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo Trovadiccion</div>
+                    <audio controls>
+                        <source src="slogans/promo-trovadiccion.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Promo Whisper Espacio</div>
+                    <audio controls>
+                        <source src="slogans/promo-whisper-espacio.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Slogan Conny</div>
+                    <audio controls>
+                        <source src="slogans/slogan-conny.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="media-item">
+                    <div class="media-title">Soniaalicia - Slogan</div>
+                    <audio controls>
+                        <source src="slogans/soniaalicia-slogan.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
         </div>
     </div>
 </body>
